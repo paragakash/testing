@@ -192,7 +192,7 @@ const Home = ({ navigation }) => {
     return (
         <View style={{ flex: 1 }}>
             <StatusBar translucent backgroundColor='transparent' />
-            {/* Gesture animations */}
+            {/* Gesture animations      */}
             <GestureRecognizer
                 onSwipeLeft={(state) => onSwipeLeft(state)}
                 onSwipeRight={(state) => onSwipeRight(state)}
